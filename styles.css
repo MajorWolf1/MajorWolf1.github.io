@@ -13,6 +13,9 @@ body {
     padding: 20px;
     text-align: center;
     background: white;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 .header h1 {
@@ -103,8 +106,6 @@ body {
 }
 
 header {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
+    
 }
 
