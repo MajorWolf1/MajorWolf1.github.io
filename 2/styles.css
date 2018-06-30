@@ -1,0 +1,30 @@
+body {
+font-family: "Book Antiqua", verdana, serif;
+font-size: medium;
+margin: 0px;
+padding: 0px;}
+
+h1 {
+font-size: x-large;
+color: #61380B;
+text-align: center;}
+
+h2 {
+font-size: large;
+color: #61380B;}
+
+td {
+text-align: center;}
+
+td.top {
+background-image: url(images/backgroundtop.jpg);
+background-size: 100% 260px;
+}
+
+td.content {
+background-image: url(images/backgroundmid.png);
+}
+
+table {
+border: 0px;
+}
