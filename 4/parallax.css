@@ -1,0 +1,155 @@
+body, html {
+    height: 100%;
+}
+
+p {
+    font-family: 'Galada', cursive;
+}
+
+.header {
+    /* The image used */
+    background-image: url('parallax/header.jpg');
+
+    /* Full height */
+    height:650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover	;
+    padding-top:5px ;
+
+}
+
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url('parallax/server.jpg');
+
+    /* Full height */
+    height:650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover	;
+}
+
+
+
+.parallax2 {
+    /* The image used */
+    background-image: url('parallax/parallax2.jpg');
+
+    /* Full height */
+    height:650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url('parallax/parallax3.jpg');
+
+    /* Full height */
+    height:650px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax2 {
+        background-attachment: scroll;
+    }
+}
+
+
+
+/* Global Button */
+.transparent_btn {
+	float: left;
+	display: inline-block;
+	padding: 10px 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 120%;
+	background-color: rgba(255,255,255, 0);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: background-color 300ms ease;
+	-moz-transition: background-color 300ms ease;
+	transition: background-color 300ms ease;
+	cursor: pointer;
+}
+.transparent_btn:hover {
+	background-color: rgba(255,255,255, 0.3);
+	color: #FFF;
+}
+
+
+.container {
+
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+
+.text {
+	height:500px	;
+	background-color:white;
+	font-size:36px
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fakeimg2 {
+float: center;
+    width: 100px;
+    height:100px;
+	padding-top: 25px;
+
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
