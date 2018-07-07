@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" type="text/css" href="links.css" />
+ <script src="script.js"></script> 
+
+<script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");
+</script>
+
+
+
+<!----- GOOGLE FONTS ----->
+<link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Shrikhand|Wendy+One" rel="stylesheet">
+
+</head>
+<body>
+<div class="header">
+  <img src="images/header.jpg" id="fixed-header"/>
+</div>
+
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="page2.html">Page 2 </a>
+  <a href="images.html">Images</a>
+  <a href="contact.html" class="active" style="float:right">Contact Me</a>
+</div>
+
+<div class="card">
+		<tr>
+			<td>
+				<center>	
+					<h1>Contact Me</h1>
+					<h2>Office Address:</h2> 
+					<p>22 MadeUp Road Winderfarm Kieth CSD I£)</p>
+					<p>Telephone: 123456789</p>
+					<p>Mobile: 987654321</p>
+					<p>
+						Email:	
+						<br>
+						<a href = "mailto:hello@test.com">hello@test.com</a>
+					</p>
+					<p>
+						Link	
+						<br>
+						<a href = "Link to here" target="_blank">http://www.link.sectsasd</a>
+					</p>			
+					<h2>Contact Form</h2>
+					<form action="mailto:Contact Email" method="post">
+						<p>Title: <select name="Title">
+							<option value="Mr">Mr</option>
+							<option value="Mrs">Mrs</option>
+							<option value="Miss">Miss</option>
+							<option value="Ms">Ms</option>
+						</select></p>  
+						<p>Gender: Male<input type="radio" name="gender" value="male">
+						Female<input type="radio" name="gender" value="female"></p>
+						
+<table style="width:30%">
+  <tr>
+    <td>First Name:</td>
+    <td><input type="text" name="firstname" size="25" maxlength="15"></td>
+</tr>
+<tr>
+    <td>Surname:</td>
+    <td><input type="text" name="surname" size="25" maxlength="20"></td>
+</tr>
+<tr>
+    <td>Address Line 1:</td>
+    <td><input type="text" name="surname" size="25" maxlength="100"></td>
+</tr>
+<tr>
+    <td>Address Line 2:</td>
+    <td><input type="text" name="surname" size="25" maxlength="100"></td>
+</tr>
+<tr>
+    <td>Town/City:</td>
+    <td><input type="text" name="surname" size="25" maxlength="100"></td>
+</tr>
+<tr>
+    <td>Postal Code:</td>
+    <td><input type="text" name="surname" size="25" maxlength="100"></td>
+</tr>
+<tr>
+    <td>Phone Number:</td>
+    <td><input type="text" name="surname" size="25" maxlength="100"></td>
+</tr>
+<tr>
+    <td>Email:</td>
+    <td><input type="text" name="surname" size="25" maxlength="100"></td>
+</tr>
+</table>
+						<p><textarea rows="5" cols="30" name="comments" placeholder = "Please Enter Any Questions Here."></textarea></p>
+						<p><input type="submit" value="submit"><input type="reset" value="clear"></p>	
+					</form>
+				</center>
+			</td>
+		</tr>
+	</table>
+
+				</td>
+			</tr>			
+		</table>
+	</body>
+  </div>
+<div class="footer">
+<p>Posted by: MajorWolf1</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</div>
+
+
+
+</body>
+</html>
